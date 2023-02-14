@@ -1,3 +1,111 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.contaner {
+    width: 100%;
+    max-width: 1270px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.nav__button {
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+.button__nav {
+
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+.carusel__item,
+.carusel__item1,
+.carusel__item2 {
+    /* transform: translateX(-1230px); */
+    transition: all 0.5s ease;
+
+}
+
+#next,
+#next1,
+#next2 {
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+#prev,
+#prev1,
+#prev2 {
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+footer {
+    background: linear-gradient(270deg, rgba(77, 94, 246, 0.2) 0%, rgba(246, 77, 77, 0.2) 100%);
+}
+
+.hr {
+
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+
+}
+
+
+.cards1::before {
+    background-image: url(../images/Yangilik.png);
+    background-position: top;
+    z-index: 2;
+}
+
+
+@media only screen and (max-width:992px) {
+    .aloqa {
+        display: none;
+    }
+
+    .nav__icon {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:786px) {
+    .header {
+        height: 150px;
+    }
+
+    .navbtn {
+        display: none;
+    }
+
+    .lable {
+        width: 100%;
+
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .button__nav {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .form {
+        max-width: 600px;
+        margin: 15px auto;
+    }
+
+    .item {
+        width: 150px;
+    }
+}

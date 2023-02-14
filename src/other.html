@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwind CDN play -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- BOX ICON -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>3-oy imtihon</title>
+</head>
+
+<body class="bg-slate-50">
+    <!-- HEADER -->
+    <header class="w-full bg-white shadow-xl sticky top-0 h-[120px] z-20">
+        <div class="  absolute right-96 aloqa">
+            <div class="flex w-80 justify-between  "> <span class="flex items-center"> <i class='bx bxs-envelope'></i>
+                    <p>Aloqa uchun</p>
+                </span>
+                <span class="flex items-center">
+                    <p>Uz</p>
+                    <i class='bx bx-chevron-down'></i>
+                </span></div>
+
+        </div>
+        <nav class="nav contaner mx-auto flex  justify-between flex-wrap pt-10  ">
+            <img src="./images/Logo.svg" alt="Logo" class="logo">
+            <div class="navbtn">
+                <button
+                    class="nav__button text-white  w-[150px] text-[17px] flex justify-evenly items-center h-[46px] rounded-lg "><i
+                        class='bx bx-menu'></i> KATALOG</button>
+            </div>
+            <form action="#" class="form">
+                <label for="search" class="flex justify-start w-[400px] items-center lable">
+                    <input type="text" name="name" id="search" placeholder="Maxsulotlarni izlash "
+                        class="text-stone-600 font-Nuskle py-[10px] border px-5 rounded-l-lg w-[340px] input">
+                    <span
+                        class="w-[60px] h-[46px] text-2xl mx-auto bg-blue-700 inline-block text-white  rounded-r-lg"><i
+                            class='bx bx-search p-3'></i></span>
+                </label>
+            </form>
+            <div class="w-[46px] h-[46px] bg-sky-100 text-2xl  text-blue-700 rounded-lg nav__icon">
+                <i class='bx bx-heart p-3'></i>
+            </div>
+            <div class="w-[46px] h-[46px] bg-sky-100 text-2xl  text-blue-700 rounded-lg nav__icon"><i
+                    class='bx bx-cart-alt p-3'></i></div>
+            <button class="button__nav w-[105px] h-[45px] rounded-lg">KIRISH</button>
+        </nav>
+    </header>
+    <main class="main contaner mx-auto">
+
+
+        <section class="relative mt-20 ">
+            <div class="main flex w-full justify-center items-center">
+                <div class="carusel   overflow-hidden relative">
+                    <div class="carusel__item2 flex max-w-[1230px] h-[380px]">
+                        <img src="./images/carusel3.jpg" alt="carusel__img">
+                        <img src="./images/carusel3.jpg" alt="carusel__img">
+                        <img src="./images/carusel3.jpg" alt="carusel__img">
+                    </div>
+
+                </div>
+                <span id="next2"
+                    class="w-[42px] rounded-full h-[42px] absolute p-1 text-3xl right-[-50px] top-1/2 text-center    ">
+                    <i class='bx bxs-chevron-right m '></i>
+                </span>
+                <span id="prev2"
+                    class="  w-[42px] rounded-full h-[42px] text-3xl absolute  p-1 top-1/2  left-[-70px] text-center">
+                    <i class='bx bxs-chevron-left '></i>
+                </span>
+        </section>
+
+        <section class="kategorialar flex justify-between  flex-wrap container mx-auto mt-20">
+
+            <div class="w-[290px] h-[290px] bg-white text-center py-3 mb-4  ">
+                <picture>
+                    <source srcset="./images/kategoriya 2x 1">
+                    <img src="./images/picture.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Shaxsiy kompyuter uchun keyslar</p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="itemw-[295px] h-[290px] bg-white py-3 text-center  mb-4  rounded-xl">
+                <picture>
+                    <source srcset="./images/kategoriya 2x 2 ">
+                    <img src="./images/picture1.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Laptop Notebooklar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3  mb-4 ">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 3">
+                    <img src="./images/picture2.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Shaxsiy kompyuter uchun monitorlar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 4">
+                    <img src="./images/picture3.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Quloqchinlar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./images/kategoriya 2x 5">
+                    <img src="./images/picture4.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Mishkalar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4  rounded-xl ">
+                <picture>
+                    <source srcset="./images/kategoriya 2x 6">
+                    <img src="./images/picture5.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Aksesuarlar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3  mb-4  rounded-xl">
+                <picture>
+                    <source srcset="./images/kategoriya 2x 7">
+                    <img src="./images/picture6.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Kovreklar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture7.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Videokartalar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture8.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Ptotsessorlar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture9.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Kompyuter sovutish tizmi</p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture10.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Blok power kopmyuter uchun </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture11.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Notebooklar uchun</p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture12.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">kayboar </p>
+                <p class=" opacity-60">223ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture13.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Tashqi himoyalovchi buyumlar </p>
+                <p class=" opacity-60">4423ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture13.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Tashqi himoyalovchi buyumlar </p>
+                <p class=" opacity-60">4423ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture13.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Tashqi himoyalovchi buyumlar </p>
+                <p class=" opacity-60">4423ta mahsulot</p>
+            </div>
+            <div class="item w-[295px] h-[290px] bg-white text-center py- 3 mb-4   rounded-xl">
+                <picture>
+                    <source srcset="./img/kategoriya 2x 8 ">
+                    <img src="./images/picture13.png  " alt="img" class="rounded-xl mx-auto mt-2">
+                </picture>
+                <p class="  w-[230px] mx-auto mt-2 mb-3">Tashqi himoyalovchi buyumlar </p>
+                <p class=" opacity-60">4423ta mahsulot</p>
+            </div>
+        </section>
+        <h2 class="mt-10 text-xl mb-10">Eng ko'p sotilgan</h2>
+        <section class="eng ko'p sotilgan flex justify-between flex-wrap container">
+
+            <div class="cards w-[230px] h-390px px-[20px] bg-white relative  rounded-lg mb-6">
+                <i class='bx bx-heart  absolute right-4 opacity-50 top-2'></i>
+                <img src="./images/komyuter.png" alt="kompyuter img">
+                <p class="text-blue-600 text-[18px]">299 000 so'm </p>
+                <p class="text-[14px] mt-[6px] mb-[30px]">Apple Airpods Pro
+                    simsiz quloqchin , Oq rangda </p>
+                <p class="opacity-60  text-[14px]">1230 ta buyurtma</p>
+                <span class="flex justify-between items-center pb-4"><button
+                        class="w-[140px] h-[40px] bg-blue-600 rounded-lg py-2 text-center text-white font-Nuskley font-[16px]">Sotib
+                        olish</button>
+                    <i class='bx bx-cart-alt p-3 text-2xl opacity-60'></i>
+                </span>
+            </div>
+            <div class="cards w-[230px] h-390px px-[20px] bg-white relative  rounded-lg mb-6">
+                <img src="./images/Yangilik.png" alt="" class="absolute ">
+                <i class='bx bx-heart  absolute right-4 opacity-50 top-2'></i>
+                <img src="./images/komyuter.png" alt="kompyuter img">
+                <p class="text-blue-600 text-[18px]">16 184 000 so'm </p>
+                <p class="text-[14px] mt-[6px] mb-[30px]">Apple Macbook Pro
+                    13" 2.4 2019 Intel core i5
+                    DDR3 8 GB SSD 256 GB </p>
+                <p class="opacity-60  text-[14px]">230 ta buyurtma</p>
+                <span class="flex justify-between items-center pb-4"><button
+                        class="w-[140px] h-[40px] bg-blue-600 rounded-lg py-2 text-center text-white font-Nuskley font-[16px]">Sotib
+                        olish</button>
+                    <i class='bx bx-cart-alt p-3 text-2xl opacity-60'></i>
+                </span>
+            </div>
+            <div class="cards w-[230px] h-390px px-[20px] bg-white relative rounded-lg mb-6">
+                <i class='bx bx-heart  absolute right-4 opacity-50 top-2'></i>
+                <img src="./images/komyuter.png" alt="kompyuter img">
+                <p class="text-blue-600 text-[18px]">299 000 so'm </p>
+                <p class="text-[14px] mt-[6px] mb-[30px]">Apple Airpods Pro
+                    simsiz quloqchin , Oq rangda </p>
+                <p class="opacity-60  text-[14px]">1230 ta buyurtma</p>
+                <span class="flex justify-between items-center pb-4"><button
+                        class="w-[140px] h-[40px] bg-blue-600 rounded-lg py-2 text-center text-white font-Nuskley font-[16px]">Sotib
+                        olish</button>
+                    <i class='bx bx-cart-alt p-3 text-2xl opacity-60'></i>
+                </span>
+            </div>
+            <div class="cards1 w-[230px] h-390px px-[20px] bg-white relative rounded-lg mb-6">
+                <img src="./images/Yangilik.png" alt="" class="absolute ">
+                <i class='bx bx-heart  absolute right-4 opacity-50 top-2'></i>
+                <img src="./images/komyuter.png" alt="kompyuter img">
+                <p class="text-blue-600 text-[18px]">299 000 so'm </p>
+                <p class="text-[14px] mt-[6px] mb-[30px]">Apple Airpods Pro
+                    simsiz quloqchin , Oq rangda </p>
+                <p class="opacity-60  text-[14px]">1230 ta buyurtma</p>
+                <span class="flex justify-between items-center pb-4"><button
+                        class="w-[140px] h-[40px] bg-blue-600 rounded-lg py-2 text-center text-white font-Nuskley font-[16px]">Sotib
+                        olish</button>
+                    <i class='bx bx-cart-alt p-3 text-2xl opacity-60'></i>
+                </span>
+            </div>
+            <div class="cards w-[230px] h-390px px-[20px] bg-white relative  rounded-lg mb-6">
+                <i class='bx bx-heart  absolute right-4 opacity-50 top-2'></i>
+                <img src="./images/komyuter.png" alt="kompyuter img">
+                <p class="text-blue-600 text-[18px]">299 000 so'm </p>
+                <p class="text-[14px] mt-[6px] mb-[30px]">Apple Airpods Pro
+                    simsiz quloqchin , Oq rangda </p>
+                <p class="opacity-60  text-[14px]">1230 ta buyurtma</p>
+                <span class="flex justify-between items-center pb-4"><button
+                        class="w-[140px] h-[40px] bg-blue-600 rounded-lg py-2 text-center text-white font-Nuskley font-[16px]">Sotib
+                        olish</button>
+                    <i class='bx bx-cart-alt p-3 text-2xl opacity-60'></i>
+                </span>
+            </div>
+        
+        </section>
+    </main>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="py-12">
+
+        <div class="flex-box contaner mx-auto flex justify-between flex-wrap">
+            <ul class=" flex justify-between w-1/2 flex-wrap ">
+                <li>
+
+                    <ul class="font-[16px]">
+                        <li class="font-[650]">Hujjatlar</li>
+                        <li class="font-[350]  py-[10px] mt-5   ">Umumiy shartlar</li>
+                        <li class="font-[350]  py-[10px]">Ofertalar arxivi</li>
+                        <li class="font-[350]  py-[10px]">Nizom</li>
+                        <li class="font-[350]  py-[10px]">Guvohnoma</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="font-[650]">Servis</li>
+                        <li class="font-[350]  py-[10px] mt-5">Do'konlar </li>
+                        <li class="font-[350]  py-[10px]">Biz haqimizda</li>
+                        <li class="font-[350]  py-[10px]">Hamkorlik uchun</li>
+                        <li class="font-[350]  py-[10px]">Qaytarish</li>
+                        <li class="font-[350]  py-[10px]">Promokodlar</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li class="font-[650]  ">
+                            Mahsulotlar katalogi
+                        </li>
+                        <li class="font-[350]  py-[10px] mt-5">kataloglar1</li>
+                        <li class="font-[350]  py-[10px]">kataloglar2</li>
+                        <li class="font-[350]  py-[10px]">kataloglar3</li>
+                        <li class="font-[350]  py-[10px]">kataloglar4</li>
+                        <li class="font-[350]  py-[10px]">kataloglar5</li>
+                        <li class="font-[350]  py-[10px]">kataloglar6</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li class="font-[650]">Axborot xizmatlari</li>
+                <li class="font-[350]  py-[10px] mt-5"><a href="mailto:">contact.@nextstore.uz</a></li>
+                <li class="font-[350]  py-[10px]"><a href="tel:+">+998 97 712 96 96 <br>
+                        +998 95 503 09 09</a></li>
+                <li class="font-[350]  py-[10px]">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</li>
+                <li><img src="./images/ilova.png" alt="" class=" mt-6"></li>
+            </ul>
+        </div>
+        <span class="max-w-[1270px] mx-auto h-[2px] hr mt-10 block"></span>
+
+    </footer>
+
+</body>
+<script src="../index.js"></script>
+
+</html>
